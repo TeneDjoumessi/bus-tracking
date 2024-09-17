@@ -1,0 +1,109 @@
+import QtQuick 2.5
+import QtQuick.Controls 2.0
+import QtQuick.Layouts 1.0
+
+Page {
+
+
+    Rectangle{
+          anchors.centerIn: parent
+          width:  400
+          height: 300
+          color: "#f19c4c"
+          Column{
+            anchors.centerIn: parent
+                   spacing: 20
+
+                   Text {
+                       text: "SignUp"
+                       font.pixelSize: 24
+                       font.bold: true
+                       horizontalAlignment: Text.AlignHCenter
+                       anchors.horizontalCenter:parent.horizontalCenter
+                       Layout.alignment: Qt.AlignHCenter
+                   }
+
+                   TextField {
+                       id: usernameField
+                       placeholderText: "Username"
+                       Layout.fillWidth: true
+                       color: "black"
+
+                       background: Rectangle {
+                           implicitWidth: 250
+                           implicitHeight: 45
+                           radius: 4
+                       }
+                   }
+                   
+                   TextField {
+                       id: usernameField
+                       placeholderText: "Username"
+                       Layout.fillWidth: true
+
+                       background: Rectangle {
+                           implicitWidth: 250
+                           implicitHeight: 45
+                           radius: 4
+                       }
+                   }
+                   
+                   TextField {
+                       id: phonenumberField
+                       placeholderText: "Phone Number"
+                       Layout.fillWidth: true
+
+                       background: Rectangle {
+                           implicitWidth: 250
+                           implicitHeight: 45
+                           radius: 4
+                       }
+                   }
+
+                   TextField {
+                       id: passwordField
+                       placeholderText: "Password"
+                       echoMode: TextInput.Password
+                       Layout.fillWidth: true
+                       color: "black"
+
+                       background: Rectangle {
+                           implicitWidth: 250
+                           implicitHeight: 45
+                           radius: 4
+                       }
+                     }
+                   Button {
+                       text: "SignUP"
+                       id: control
+                       onClicked: {
+                           console.log("Username:", usernameField.text)
+                           console.log("Password:", passwordField.text)
+                       }
+                       Layout.fillWidth: true
+
+                       contentItem: Text {
+                           color:  "#f9f6f6"
+                           text: control.text
+                           font: control.font
+                           opacity: enabled ? 1.0 : 0.3
+                           horizontalAlignment: Text.AlignHCenter
+                           verticalAlignment: Text.AlignVCenter
+                           elide: Text.ElideRight
+                       }
+
+                       background: Rectangle {
+                           color: "#1f54e8"
+                           implicitWidth: 90
+                           implicitHeight: 40
+                           opacity: enabled ? 1 : 0.3
+                           border.color: "#f9f6f6"
+                           border.width: 1
+                           radius: 6
+                       }
+                         anchors.horizontalCenter:parent.horizontalCenter
+                   }
+        }
+    }
+
+}

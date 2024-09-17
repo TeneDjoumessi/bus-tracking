@@ -1,0 +1,77 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>images/bus wait.jpg</file>
+        <file>images/Live-Bus-Tracking-Image.jpg</file>
+        <file>images/OIP (1).jpg</file>
+        <file>images/OIP.jpg</file>
+        <file>images/R.jpg</file>
+        <file>images/TrackMe logo1.jpg</file>
+        <file>images/Trackme logo2.jpg</file>
+        <file>images/TrackMe logo3.jpg</file>
+        <file>images/TrackMe logo4.jpg</file>
+        <file>HomePage.qml</file>
+        <file>LoginPage.qml</file>
+        <file>SignUpPage.qml</file>
+        <file>MapPage.qml</file>
+        <file>DispachCenterPage.qml</file>
+        <file>icon/Cancel.svg</file>
+        <file>icon/Close.svg</file>
+        <file>icon/Edit.svg</file>
+        <file>icon/Facebook.svg</file>
+        <file>icon/Female User.svg</file>
+        <file>icon/Google Plus.svg</file>
+        <file>icon/Home.svg</file>
+        <file>icon/Icons8.svg</file>
+        <file>icon/Instagram Old.svg</file>
+        <file>icon/LinkedIn.svg</file>
+        <file>icon/Menu.svg</file>
+        <file>icon/Menu2.svg</file>
+        <file>icon/Opened Folder.svg</file>
+        <file>icon/Restart.svg</file>
+        <file>icon/Search.svg</file>
+        <file>icon/Settings.svg</file>
+        <file>icon/Toolbox.svg</file>
+        <file>icon/Trash.svg</file>
+        <file>icon/Tumblr.svg</file>
+        <file>icon/Twitter.svg</file>
+        <file>icon/User Male.svg</file>
+        <file>ManageBus.qml</file>
+        <file>ManageDrivers.qml</file>
+        <file>SetRout.qml</file>
+        <file>AddBusForm.qml</file>
+        <file>AddRout.qml</file>
+        <file>AddDriver.qml</file>
+        <file>ManageStaff.qml</file>
+        <file>AddStaff.qml</file>
+        <file>icon/address_100px.png</file>
+        <file>icon/arrow_100px.png</file>
+        <file>icon/customer_64px.png</file>
+        <file>icon/left_100px.png</file>
+        <file>icon/location_80px.png</file>
+        <file>icon/location_100px.png</file>
+        <file>icon/logout_52px.png</file>
+        <file>icon/phone_48px.png</file>
+        <file>icon/plus_+_100px.png</file>
+        <file>icon/Plus_48px.png</file>
+        <file>icon/search_500px.png</file>
+        <file>icon/settings_100px.png</file>
+        <file>icon/task_100px.png</file>
+        <file>icon/trash_64px.png</file>
+        <file>icon/user_groups_100px.png</file>
+        <file>icon/Bus_128px.png</file>
+        <file>icon/driver_48px.png</file>
+        <file>icon/Staff_128px.png</file>
+        <file>icon/track_order_48px.png</file>
+        <file>icon/customer_60px.png</file>
+        <file>icon/Male User_128px.png</file>
+        <file>LostObjectForm.qml</file>
+        <file>icon/Pick Up_128px.png</file>
+        <file>icon/picture_80px.png</file>
+        <file>AddLostObject.qml</file>
+        <file>ListPost.qml</file>
+        <file>UserRoleManager.qml</file>
+        <file>DatabaseConnection.qml</file>
+        <file>Messages.js</file>
+    </qresource>
+</RCC>
